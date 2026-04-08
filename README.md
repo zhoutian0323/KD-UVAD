@@ -35,6 +35,7 @@ opencv-python==4.11.0.86
 pillow==11.3.0
 ```
 
+## UCSD Ped2 Dataset
 
 Download dataset: (Ped2 dataset is derived from http://www.svcl.ucsd.edu/projects/anomaly/dataset.htm.).
 
@@ -94,7 +95,7 @@ from util.stc_motion_dataset import dataset_path_for_memory, np_img_load_frame, 
 Training and inference:
 
 ```
-python kduvad_stc.py --cfg /home/user/codes/KD-VAD/exp/k400/k400+k710_b16_f8x224/config_mlkd.yaml --num_shards 1 NUM_GPUS 1 NUM_SHARDS 1 --dataset shanghai --output_dir output/kduvad_on_stc --consecutive 8 --prev_clip_num 1 --train_steps 1000000
+python kduvad_stc.py --cfg /home/user/codes/KD-VAD/exp/k400/k400+k710_b16_f8x224/config_mlkd.yaml --num_shards 1 NUM_GPUS 1 NUM_SHARDS 1 --dataset shanghai --output_dir output/kduvad_on_stc --consecutive 8 --prev_clip_num 1 --train_steps 500000
 ```
 
 ## Reproducibility Details
