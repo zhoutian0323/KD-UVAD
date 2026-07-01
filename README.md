@@ -1,3 +1,7 @@
+# Overall structure
+![KD-UVAD Architecture](Overall structure.tif?raw=true)
+**Fig. 2. Overall architecture of the proposed KD-UVAD framework.**
+
 # KD-UVAD
 The paper link and code will be made publicly available upon acceptance.
 
