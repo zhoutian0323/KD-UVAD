@@ -1,6 +1,5 @@
 # Overall structure
-![KD-UVAD Architecture](Overall structure.tif?raw=true)
-**Fig. 2. Overall architecture of the proposed KD-UVAD framework.**
+![KD-UVAD Architecture]((https://github.com/zhoutian0323/KD-UVAD/blob/main/Overall%20structure.tif)?raw=true)
 
 # KD-UVAD
 The paper link and code will be made publicly available upon acceptance.
